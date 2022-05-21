@@ -3,7 +3,7 @@ package com.example.aop.dto;
 public class User {
 
     private String id;
-    private String name;
+    private String pw;
     private String email;
 
     public String getId() {
@@ -14,12 +14,12 @@ public class User {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getPw() {
+        return pw;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setPw(String pw) {
+        this.pw = pw;
     }
 
     public String getEmail() {
@@ -34,7 +34,7 @@ public class User {
     public String toString() {
         return "User{" +
             "id='" + id + '\'' +
-            ", name='" + name + '\'' +
+            ", pw='" + pw + '\'' +
             ", email='" + email + '\'' +
             '}';
     }
